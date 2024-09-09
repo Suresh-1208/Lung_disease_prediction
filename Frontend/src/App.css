@@ -48,8 +48,8 @@ button {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
-  width: 80px; /* Fixed width */
-  height: 40px; /* Fixed height */
+  width: 80px; 
+  height: 40px; 
   display: flex;
   align-items: center;
   justify-content: center;
