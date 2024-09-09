@@ -32,7 +32,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://127.0.0.1:5000/predict', formData);
+      const response = await axios.post('https://lung-disease-prediction-api.onrender.com/predict', formData);
       setResult(response.data.prediction);
     } catch (error) {
       console.error("There was an error making the request", error);
